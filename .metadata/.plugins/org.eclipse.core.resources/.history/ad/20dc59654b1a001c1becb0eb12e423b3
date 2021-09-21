@@ -1,0 +1,22 @@
+package Core;
+
+
+
+public class Materiel {
+private int hardiD;
+private String name;
+private String type;
+private String size;
+public Materiel(int hardiD, String name, String type, String size) {
+	
+	//the constructor
+	super();
+	this.hardiD = hardiD;
+	this.name = name;
+	this.type = type;
+	this.size = size;
+}
+
+
+
+}

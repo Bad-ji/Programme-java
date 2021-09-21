@@ -1,0 +1,16 @@
+package Core;
+
+public class Playbook {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Human clone= new Human(0,"Felix","Jean Joel","Masculin");
+
+System.out.println(clone.toString());
+Professor prof_Moise= new Professor(1,"Brutus","Edner","ghi",2);
+String info = prof_Moise.toString();
+System.out.println(info);
+ 
+Cours info = new Cours(1,300,"Java",null, prof_Moise);}
+
+}
